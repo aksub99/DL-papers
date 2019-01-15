@@ -1,0 +1,15 @@
+1)Potential Energy Surface calculation done earlier with DFT.
+2)Very computationally expensive
+3)So, emperical potentials were used
+4)But guessing of correct functional form is often difficult and sometimes wrong for application
+5)These were inspirations to try approximation with NN
+6)Some disadvantages of NN-based method are:
+	i)Weights of input layers are usually different for different neurons. This means that order of coordinates of atomic configuration 		  provided will affect final Potential Energy even if the atoms are of the same type which should not in reality be the case.
+	ii)Neural networks have a fixed input dimension. Therefore, if 2 systems have different number of atoms, the same network cannot be 		   used for both and infact architecture will have to be changed.
+7)This method makes use of the fact that the total energy can be represented as the sum of individual contributions of atoms.
+8)A new type of symmetry function was used.
+  i)The symmetry function value of an atom represents the local environment around that atom that determines its energy.
+  ii)Two atoms with the same local environment will lead to the same set of symmetry function values.
+  iii)Symmetry function values must be invariant of rotation or translation of system.
+  iv)Symmetry function values must be independent of coordination number of atoms. 
+9)
