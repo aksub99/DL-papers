@@ -1,0 +1,10 @@
+1)Similarity between indic scripts allows cross language transliteration.
+2)Image is segmented into 3 different zones as most indic scripts consist of 3 portions describing the letter.
+3)For matras, projection analysis methods are used whereas for lower zone components, a shape matching algorithm is used because of non      uniform shape and size of middle zone letters.
+4)Basic process in recognition task involves training of model to identify handwritten images of source script. This model is now used to identify target script.
+After this the result is mapped to the target alphabet using lexicon map table that has been prepared based on similarity of alphabets in both languages.
+5)Basic process in word spotting task involves mapping of target script word to source script character sequence. Then this mid level query keyword is used to search for similar words in the target script line.
+6)
+
+ 
+	
