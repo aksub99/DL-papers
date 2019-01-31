@@ -4,7 +4,12 @@
 4)Basic process in recognition task involves training of model to identify handwritten images of source script. This model is now used to identify target script.
 After this the result is mapped to the target alphabet using lexicon map table that has been prepared based on similarity of alphabets in both languages.
 5)Basic process in word spotting task involves mapping of target script word to source script character sequence. Then this mid level query keyword is used to search for similar words in the target script line.
-6)
+6)Since letters in middle zone are cursive and touching, they are trained using HMM to avoid segmentation.
+7)SVM is used for component modelling of top and bottom zones.
+8)Other than the fact that HMM can deal with touching and cursive handwriting, it is also good in dealing with sequential dependencies.
+9)PHOG method is used to extract features by passing a window from left to right. These features are passed through a HMM which can give the desired output.
+10)For upper and lower zone PHOG method is used for feature extraction and then passed through an SVM classifier which is used to classify these components.
+11) 
 
  
 	
