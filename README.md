@@ -7,3 +7,5 @@
   https://arxiv.org/abs/1505.04597</br>
 4)TernausNet: U-Net with VGG11 Encoder Pre-Trained on ImageNet for Image Segmentation</br>
   https://arxiv.org/abs/1801.05746</br>
+5)Focal Loss for Dense Object Detection</br>
+  https://arxiv.org/abs/1708.02002</br>
