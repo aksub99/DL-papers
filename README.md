@@ -11,3 +11,5 @@
   https://arxiv.org/abs/1612.03144</br>
 6)Focal Loss for Dense Object Detection</br>
   https://arxiv.org/abs/1708.02002</br>
+7)MT-CGCNN: Integrating Crystal Graph Convolutional Neural Network with Multitask Learning for Material Property Prediction  
+  https://arxiv.org/abs/1811.05660
