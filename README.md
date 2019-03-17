@@ -13,3 +13,5 @@
   https://arxiv.org/abs/1708.02002</br>
 7)MT-CGCNN: Integrating Crystal Graph Convolutional Neural Network with Multitask Learning for Material Property Prediction  
   https://arxiv.org/abs/1811.05660</br>
+8)BERT: Pre-training of Deep Bidirectional Transformers forLanguage Understanding
+  https://arxiv.org/abs/1810.04805</br>
