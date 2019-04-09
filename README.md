@@ -17,3 +17,5 @@
   https://arxiv.org/abs/1810.04805</br>
 9)Attention Is All You Need</br>
   https://arxiv.org/abs/1706.03762</br>
+10)Single-Shot Refinement Neural Network for Object Detection</br>
+  https://arxiv.org/abs/1711.06897</br>
